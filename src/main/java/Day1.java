@@ -1,5 +1,3 @@
-package src.main.java;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -54,7 +52,7 @@ public class Day1 {
 
         System.out.println("Testing the read of the file");
 
-        List<Integer> massValues = readMassValues("/Users/joanamagalhaes/Documents/MD_Joana/Git/playground/AdventOfCode/InputFiles/MassValues.txt");
+        List<Integer> massValues = readMassValues("src\\main\\resources\\MassValues.txt");
         System.out.println(String.format("Size of the list is: %s", massValues.size()));
 
         System.out.println("Time to calculate the sum");
