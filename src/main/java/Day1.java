@@ -52,7 +52,7 @@ public class Day1 {
 
         System.out.println("Testing the read of the file");
 
-        List<Integer> massValues = readMassValues("src\\main\\resources\\MassValues.txt");
+        List<Integer> massValues = readMassValues("src/main/resources/MassValues.txt");
         System.out.println(String.format("Size of the list is: %s", massValues.size()));
 
         System.out.println("Time to calculate the sum");
